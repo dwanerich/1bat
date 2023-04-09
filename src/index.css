@@ -16,3 +16,7 @@ code {
   border: solid rgb(155, 162, 38) .25px;
   border-radius: 12px;
 }
+
+.logo:hover {
+  box-shadow: 0 0 11px rgba(250, 230, 7, 0.689);
+}
