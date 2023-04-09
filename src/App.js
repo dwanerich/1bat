@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="img" alt="logo" />
+        <img src={logo} className="logo" alt="logo" />
         <p>
         © 2023 1 BAT | 1 Brick at A Time
         </p>
