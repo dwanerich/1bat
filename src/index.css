@@ -15,7 +15,7 @@ code {
 .logo {
   border: solid rgb(155, 162, 38) .25px;
   border-radius: 12px;
-  width: 400px;
+  width: 80%;
 }
 
 .logo:hover {
