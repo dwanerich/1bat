@@ -7,8 +7,9 @@ const Work = () => {
     <div>
       <div className="App-header"
       style={{backgroundColor: 'white'}}>
-         <p>
-        work
+        <br />
+         <p style={{border: 'solid 1px rgb(42, 214, 244)', borderRadius: '20px'}}>
+        services
         </p>
         <a
           className="App-link"
