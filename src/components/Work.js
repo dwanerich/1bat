@@ -1,6 +1,8 @@
 import logo from '../1bat_banner.gif';
-import Header from './Nav';
+import Header, { Nav } from './Nav';
 import '../index.css'
+import { NavLink } from "react-router-dom";
+
 
 const Work = () => {
   return (
@@ -19,20 +21,37 @@ const Work = () => {
         >
         </a>
       <div className="main">
+        <NavLink
+        to="http://blog.fabric-frequency.com">
         <div className="work">
-          creative
+          rss
         </div>
 
+        </NavLink>
+
+        <NavLink
+        to="http://www.dwanerich.com">
         <div className="work">
           apps
           </div>
+        </NavLink>
+          <NavLink
+          to="https://open.spotify.com/artist/6d2X2fOrEI5adbahA0Avxf">
           <div className="work">
           sound
         </div>
 
+          </NavLink>
+
+        <NavLink
+          to="/drumkit"
+          exact
+        >
         <div className="work">
-          U/I
+          u/i
           </div>
+
+        </NavLink>
           </div>
       </div>
     </div>
