@@ -1,4 +1,7 @@
-
+.header {
+    position: sticky;
+  top: 0;
+}
 .sidenav {
     height: 100%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
@@ -108,8 +111,6 @@
     height: 75px;
     width: 100%;
 }
-
-
 
 .creative-projects-container {
     background-color: rgba(196, 196, 196, 0.486);

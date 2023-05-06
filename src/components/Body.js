@@ -1,5 +1,6 @@
 import logo from '../1bat_banner.gif';
-import Header from './Header';
+import Work from './Work';
+
 
 const Body = () => {
   return (
@@ -39,6 +40,7 @@ const Body = () => {
         >
         </a>
       </header>
+      <Work />
     </div>
   );
 }

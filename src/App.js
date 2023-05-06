@@ -1,19 +1,19 @@
-import { Route, Routes, Router } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 
 import './App.css';
 import Body from './components/Body';
 import Drums from './components/Drums';
-import Footer from './components/Footer';
-import Header from './components/Header';
+import Work from './components/Work';
+import Nav from './components/Nav';
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Nav />
       <Routes>
       <Route exact path="/" element={<Body />} />
+        <Route exact path="/footer" element={<Work />} />
       <Route exact path="/drumkit" element={<Drums />} />
-        <Route exact path="/footer" element={<Footer />} />
       </Routes>
     </div>
   );
