@@ -1,6 +1,5 @@
 import React from 'react'
 import white from '../1batlogo.png'
-
 import './footer.css'
 
 export const Footer = () => {
@@ -8,8 +7,7 @@ export const Footer = () => {
     <div>
 <footer>
       <div class="footer_container">
-        <img src={white} className="logo"
-        style={{border: 'solid 1px black'}}/>
+        <img src={white} className="logo"/>
           <div class="social_media">
 
             {/* <a href="#"> */}
