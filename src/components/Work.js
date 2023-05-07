@@ -8,9 +8,10 @@ const Work = () => {
   return (
     <div>
       <div className="App-header"
-      style={{backgroundColor: 'white'}}>
+      style={{backgroundColor: 'gold'
+      }}>
         <br />
-         <p style={{border: 'solid 1px rgb(42, 214, 244)', borderRadius: '20px'}}>
+         <p style={{border: 'solid 2px rgb(42, 214, 244)', borderRadius: '20px'}}>
         services
         </p>
         <a
