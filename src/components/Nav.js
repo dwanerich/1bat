@@ -2,12 +2,12 @@ import React from 'react'
 import logo from '../1batlogo.png'
 import './style.css'
 
+
 export const Nav = () => {
 
   return (
     <div style={{backgroundColor: 'black'}} className='header'>
       <img className="logo" src={logo} data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"/>
-    {/* <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">Toggle top offcanvas</button> */}
 
 <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
   <div class="offcanvas-header">
